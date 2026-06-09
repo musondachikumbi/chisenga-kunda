@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Fresh chicken — live, dressed, and roasted to order.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fine Birds Limited</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- HEADER / NAV -->
+    <header>
+      <nav class="nav-container">
+        <div class="logo">
+          <img src="images/logo.png" alt="Fine Birds Limited Logo">
+          <span class="logo-text">Fine Birds Limited</span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="hero-eyebrow">Farm Fresh · Locally Raised</p>
+        <h1>Chicken the&nbsp;way<br>it should&nbsp;be.</h1>
+        <p class="hero-sub">Live, dressed, or roasted to order — straight from our farm to your table.</p>
+        <a href="#products" class="btn btn-primary">See What We Offer</a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+      <div class="container">
+        <p class="section-label">Who We Are</p>
+        <h2>Raised with care.<br>Sold with pride.</h2>
+        <p class="section-body">
+          We are a dedicated team of chicken farmers with years of hands-on experience. Every bird we raise is fed well, kept healthy, and treated right — because that's what makes the difference on your plate. We supply families, caterers, and businesses across the community.
+        </p>
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section id="products" class="section products">
+      <div class="container">
+        <p class="section-label">What We Sell</p>
+        <h2>Choose what suits you.</h2>
+        <div class="product-grid">
+          <div class="product-card">
+            <div class="product-icon">🐔</div>
+            <h3>Live Chicken</h3>
+            <p>Pick your bird directly. Healthy, active, free-range chickens available for same-day collection.</p>
+          </div>
+          <div class="product-card">
+            <div class="product-icon">🔪</div>
+            <h3>Dressed Chicken</h3>
+            <p>Cleaned and prepared for cooking. Ready to go straight into your pot — no fuss, no mess.</p>
+          </div>
+          <div class="product-card featured">
+            <div class="product-icon">🍗</div>
+            <h3>Roasted Chicken</h3>
+            <p>Seasoned and roasted to perfection on request. Great for events, gatherings, or a special family meal.</p>
+            <span class="badge">On Request</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="container contact-inner">
+        <p class="section-label">Get in Touch</p>
+        <h2>Ready to place an order?</h2>
+        <p class="section-body">Reach out with your order or any questions. We'll get back to you quickly.</p>
+
+        <form class="contact-form" action="mailto:chisengakunda999@gmail.com" method="get" enctype="text/plain">
+          <div class="form-row">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="tel" name="phone" placeholder="Phone Number">
+          </div>
+          <select name="subject">
+            <option value="" disabled selected>What are you interested in?</option>
+            <option value="Live Chicken">Live Chicken</option>
+            <option value="Dressed Chicken">Dressed Chicken</option>
+            <option value="Roasted Chicken">Roasted Chicken</option>
+            <option value="General Enquiry">General Enquiry</option>
+          </select>
+          <textarea name="body" rows="5" placeholder="Tell us more — quantities, dates, special requests..."></textarea>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+
+        <p class="contact-direct">Or email us directly: <a href="mailto:chisengakunda999@gmail.com">chisengakunda999@gmail.com</a></p>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container footer-inner">
+        <p class="footer-brand">Fine Birds Limited</p>
+        <p class="footer-copy">© 2026 · Fresh chicken, raised with care.</p>
+      </div>
+    </footer>
+
+  </body>
+</html>
