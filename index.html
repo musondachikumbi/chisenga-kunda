@@ -90,8 +90,9 @@
 
         <form class="contact-form" action="mailto:chisengakunda999@gmail.com" method="get" enctype="text/plain">
           <div class="form-row">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="tel" name="phone" placeholder="Phone Number">
+            <input type="text" name="name" placeholder="Your Name" autocomplete="name" required>
+            <input type="tel" name="phone" placeholder="Phone Number" autocomplete="tel" required>
+            <input type="email" name="email" placeholder="Email Address" autocomplete="email" optional>
           </div>
           <select name="subject">
             <option value="" disabled selected>What are you interested in?</option>
