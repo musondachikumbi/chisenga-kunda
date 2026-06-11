@@ -561,6 +561,40 @@ footer {
   color: var(--accent);
 }
 
+/* --- FORM STATUS ------------------------------------------ */
+.form-status {
+  font-size: 0.9rem;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  display: none;
+}
+
+.form-status.success {
+  display: block;
+  background: rgba(30,74,46,0.1);
+  color: #1E4A2E;
+  border: 1px solid rgba(30,74,46,0.2);
+}
+
+.form-status.error {
+  display: block;
+  background: rgba(181,50,50,0.1);
+  color: #8B2020;
+  border: 1px solid rgba(181,50,50,0.2);
+}
+
+body.dark .form-status.success {
+  background: rgba(30,74,46,0.2);
+  color: #7db88a;
+  border-color: rgba(125,184,138,0.3);
+}
+
+body.dark .form-status.error {
+  background: rgba(181,50,50,0.15);
+  color: #e07070;
+  border-color: rgba(224,112,112,0.3);
+}
+
 /* --- REDUCED MOTION --------------------------------------- */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
